@@ -1,0 +1,195 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Ubuntu:wght@300;400&display=swap');
+.container{
+	width: 1140px;
+	margin: auto;
+}
+a{
+	text-decoration: none;
+}
+header{
+width: 100%;
+padding:50px 0px;
+display: flow-root;
+}
+
+
+.mal{
+	width: 100%;
+	float: left;
+
+}
+.logo{
+	width: 25%;
+	float: left;
+
+}
+.menu{
+	width: 75%;
+	float: right;
+	text-align: right;
+	
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+}
+.menu ul li a{
+	font-family: 'Playfair Display', serif;
+	color: #c0c0c0;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-left: 60px;
+}
+.menu ul li a:hover{
+color: black;
+}
+.kala{
+	width: 100%;
+	display: flow-root;
+}
+
+.nil{
+	padding: 70px;
+}
+.nil h4{
+	color: #c0c0c0;
+	text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+.nil h1{
+font-family: 'Playfair Display', serif;
+color: #b0b0b0;
+margin: 20px 0px;
+}
+.nil p{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	margin-bottom: 20px;
+
+}
+.nil span{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	color: #c0c0c0;
+
+} 
+.post{
+	width: 100%;
+	display: flow-root;
+
+}
+.gallery{
+	width:100%;
+	padding: 70px;
+}
+.left{
+	float: left;
+	width: 45%;
+
+}
+.right{
+	float: right;
+	width: 45%;
+
+}
+.extra{
+	padding-right: 20px;
+}
+.extra-2{
+	padding-left: 20px;
+}
+.lallu{
+	width: 100%;
+	background-color: #f0f0f0;
+	display: flow-root;
+	padding: 70px 0px;
+}
+.subscribe{
+	text-align: center;
+}
+.subscribe h1{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+
+}
+.subscribe input{
+	width: 30%;
+	padding: 15px 0px;
+	border: none;
+	border-bottom: 1px solid black;
+	background: transparent;
+
+}
+.subscribe input::placeholder{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	color:black;
+
+}
+.subscribe input:focus{
+
+	outline: 0px;
+	border-bottom-color: red;
+}
+.lalala{
+	display: flow-root;
+	width: 100%;
+}
+.bts{
+	text-align: center;
+padding: 70px;
+margin-top: 35px;
+margin-bottom: 50px;
+}
+.bts a{
+	font-family: 'Playfair Display', serif;
+color: white;
+font-weight: 400;
+text-align: center;
+text-decoration: none;
+padding: 25px;
+border: 2px solid black;
+background-color: black;
+}
+.bts a:hover{
+	color: tomato;
+}
+.combo{
+	width: 100%;
+	display: flow-root;
+	background: #f0f0f0;
+}
+.naruto{
+	padding: 75px;
+}
+.footer-menu{
+	width: 50%;
+	float:left;
+}
+.footer-menu ul li {
+    display: inline-block;
+}
+.footer-menu ul li a{
+	font-family: 'Playfair Display', serif;
+text-decoration: none;
+padding-right: 10px;
+color: #000000;
+font-size: 14px;
+font-weight: 600;
+}
+.death ul li{
+  display: inline-block;
+}
+.death ul li a {
+    font-family: 'Playfair Display', serif;
+    color: black;
+    text-decoration: none;
+    padding-left: 25px;
+    font-size: 14px;
+    font-weight: 600;
+}
